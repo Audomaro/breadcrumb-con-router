@@ -1,0 +1,27 @@
+p {
+  font-family: Lato;
+}
+
+li {
+  display: inline-flex;
+  user-select: none;
+   font-weight: bold;
+   font-size: 2rem;
+}
+
+a:link, a:visited, a:hover, a:active {
+   color: blue;
+   text-decoration: none;
+}
+
+li a {
+  padding: 0 10px;
+}
+
+li::before {
+  content: '|'
+}
+
+li:last-child::after {
+  content: '|';
+}
